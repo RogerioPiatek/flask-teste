@@ -14,7 +14,7 @@ COPY . .
 EXPOSE 5000
 
 # Definir a variável de ambiente para o Flask (assumindo que o arquivo principal seja app.py)
-ENV FLASK_APP=app.py
+ENV FLASK_APP=main.py
 
 # Rodar o servidor Flask
 CMD ["flask", "run", "--host=0.0.0.0", "--port=5000"]
